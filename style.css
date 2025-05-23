@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff0f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #d63384;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #d63384;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  background: #b31a5c;
+  transform: scale(1.05);
+}
+
+#color-box {
+  width: 100px;
+  height: 100px;
+  background: #ffb6c1;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery img {
+  width: 100px;
+  margin: 10px;
+  border: 3px solid transparent;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: border 0.3s;
+}
+
+.gallery img.active {
+  border-color: #d63384;
+}
+
+#main-img {
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 12px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
+  color: green;
+  font-size: 0.9em;
+}
+
+#secret {
+  text-align: center;
+  font-weight: bold;
+  color: #99004d;
+}
